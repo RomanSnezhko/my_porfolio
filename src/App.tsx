@@ -1,10 +1,14 @@
 import './App.css'
 import styled from "styled-components";
+import {Header} from "./layout/header/Header.tsx";
+import {Main} from "./layout/sections/main.tsx";
+
 
 function App() {
     return (
         <div className="App">
-            <Title>Hi babby</Title>
+            <Header/>
+            <Main/>
         </div>
     )
 }
